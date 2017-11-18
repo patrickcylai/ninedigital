@@ -1,0 +1,30 @@
+{
+  "name": "ninedigitalapi",
+  "version": "1.0.0",
+  "description": "Nine Digital Coding Challenge API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcyl420/ninedigital.git"
+  },
+  "keywords": [
+    "Nine",
+    "Digital",
+    "API"
+  ],
+  "author": "Patrick Lai",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
